@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "bABfb40jkJA=",
+  "dgSpecHash": "wmUVc9owFr0=",
   "success": true,
   "projectFilePath": "C:\\Users\\TheElectreKid\\Desktop\\dev\\CSharp\\Calculator\\MauiAppCalculator\\MauiAppCalculator.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\TheElectreKid\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.2\\communitytoolkit.mvvm.8.4.2.nupkg.sha512",
     "C:\\Users\\TheElectreKid\\.nuget\\packages\\googlegson\\2.13.1.1\\googlegson.2.13.1.1.nupkg.sha512",
     "C:\\Users\\TheElectreKid\\.nuget\\packages\\microsoft.extensions.configuration\\10.0.0\\microsoft.extensions.configuration.10.0.0.nupkg.sha512",
     "C:\\Users\\TheElectreKid\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.0\\microsoft.extensions.configuration.abstractions.10.0.0.nupkg.sha512",

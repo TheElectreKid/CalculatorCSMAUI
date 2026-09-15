@@ -516,3 +516,5 @@ C:\Users\TheElectreKid\Desktop\dev\CSharp\Calculator\MauiAppCalculator\obj\Debug
 C:\Users\TheElectreKid\Desktop\dev\CSharp\Calculator\MauiAppCalculator\obj\Debug\net10.0-windows10.0.19041.0\win-x64\qualifiers.txt
 C:\Users\TheElectreKid\Desktop\dev\CSharp\Calculator\MauiAppCalculator\obj\Debug\net10.0-windows10.0.19041.0\win-x64\qualifiers.txt.intermediate
 C:\Users\TheElectreKid\Desktop\dev\CSharp\Calculator\MauiAppCalculator\obj\Debug\net10.0-windows10.0.19041.0\win-x64\MultipleQualifiersPerDimensionFound.txt
+C:\Users\TheElectreKid\Desktop\dev\CSharp\Calculator\MauiAppCalculator\obj\Debug\net10.0-windows10.0.19041.0\win-x64\MauiAppCalculator.sourcelink.json
+C:\Users\TheElectreKid\Desktop\dev\CSharp\Calculator\MauiAppCalculator\bin\Debug\net10.0-windows10.0.19041.0\win-x64\CommunityToolkit.Mvvm.dll

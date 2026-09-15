@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MauiAppCalculator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+b0c93689d687409710fb291d05db555fa994e204")]
 [assembly: System.Reflection.AssemblyProductAttribute("MauiAppCalculator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MauiAppCalculator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

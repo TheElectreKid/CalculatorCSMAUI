@@ -2,7 +2,191 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppCalculator.MainPage">
+<VerticalStackLayout
+    Padding="30"
+    Spacing="15"
+    HorizontalOptions="Center"
+    VerticalOptions="Center"
+>
 
+<Border
+    Stroke="#CCCCCC"
+    StrokeThickness="2"
+    BackgroundColor="#F5F5F5"
+    Padding="15"
+    WidthRequest="700"
+    HeightRequest="80"
+>
+    <Border.StrokeShape>
+        <RoundRectangle CornerRadius="8"/>
+    </Border.StrokeShape>
 
+    <Label
+        x:Name="DisplayBox"
+        Text="0"
+        FontSize="20"
+        HorizontalTextAlignment="Start"
+        TextColor="Black"
+    />
 
+</Border>
+
+<Grid
+    ColumnDefinitions="*, *, *, *"
+    ColumnSpacing="10"
+    RowDefinitions="*, *, *, *, *"
+    RowSpacing="10"
+    WidthRequest="700"    
+>
+    <!-- First Column -->
+    <Button 
+        Grid.Column="0" Text="7"
+        Grid.Row="0" 
+        BackgroundColor="#512BD4" 
+        TextColor="White" 
+        Command="{Binding CalcKeys}"
+        CommandParameter="NumKey7"
+    />
+
+    <Button 
+        Grid.Column="0" Text="4"
+        Grid.Row="1" 
+        BackgroundColor="#512BD4" 
+        TextColor="White"
+        Command="{Binding CalcKeys}"
+        CommandParameter="NumKey4" 
+    />
+
+    <Button 
+        Grid.Column="0" Text="1"
+        Grid.Row="2" 
+        BackgroundColor="#512BD4" 
+        TextColor="White"
+        Command="{Binding CalcKeys}"
+        CommandParameter="NumKey1" 
+    />
+
+    <Button 
+        Grid.Column="0" Text="C"
+        Grid.Row="3" 
+        BackgroundColor="#512BD4" 
+        TextColor="White"
+        Command="{Binding CalcKeys}"
+        CommandParameter="ActionClear" 
+    />
+    
+    <!-- Second Column -->
+    <Button 
+        Grid.Column="1" Text="8" 
+        Grid.Row="0"
+        BackgroundColor="#512BD4" 
+        TextColor="White"
+        Command="{Binding CalcKeys}" 
+        CommandParameter="NumKey8"
+    />
+
+    <Button 
+        Grid.Column="1" Text="5" 
+        Grid.Row="1"
+        BackgroundColor="#512BD4" 
+        TextColor="White"
+        Command="{Binding CalcKeys}" 
+        CommandParameter="NumKey5"
+    />
+
+    <Button 
+        Grid.Column="1" Text="2" 
+        Grid.Row="2"
+        BackgroundColor="#512BD4" 
+        TextColor="White"
+        Command="{Binding CalcKeys}" 
+        CommandParameter="NumKey2"
+    />
+
+    <Button 
+        Grid.Column="1" Text="0" 
+        Grid.Row="3"
+        BackgroundColor="#512BD4" 
+        TextColor="White"
+        Command="{Binding CalcKeys}" 
+        CommandParameter="NumKey0"
+    />
+
+    <!-- Third Column -->
+    <Button 
+        Grid.Column="2" Text="9" 
+        Grid.Row="0"
+        BackgroundColor="#512BD4" 
+        TextColor="White"
+        Command="{Binding CalcKeys}" 
+        CommandParameter="NumKey9"
+    />
+
+    <Button 
+        Grid.Column="2" Text="6" 
+        Grid.Row="1"
+        BackgroundColor="#512BD4" 
+        TextColor="White"
+        Command="{Binding CalcKeys}" 
+        CommandParameter="NumKey6"
+    />
+
+    <Button 
+        Grid.Column="2" Text="3" 
+        Grid.Row="2"
+        BackgroundColor="#512BD4" 
+        TextColor="White"
+        Command="{Binding CalcKeys}" 
+        CommandParameter="NumKey3"
+    />
+
+    <Button 
+        Grid.Column="2" Text="=" 
+        Grid.Row="3"
+        BackgroundColor="#512BD4" 
+        TextColor="White"
+        Command="{Binding CalcKeys}" 
+        CommandParameter="ActionCalc"
+    />
+
+    <!-- Fourth Column -->
+    <Button 
+        Grid.Column="3" Text="/" 
+        Grid.Row="0"
+        BackgroundColor="#512BD4" 
+        TextColor="White"
+        Command="{Binding CalcKeys}" 
+        CommandParameter="OpDiv"
+    />
+
+    <Button 
+        Grid.Column="3" Text="*" 
+        Grid.Row="1"
+        BackgroundColor="#512BD4" 
+        TextColor="White"
+        Command="{Binding CalcKeys}" 
+        CommandParameter="OpMul"
+    />
+
+    <Button 
+        Grid.Column="3" Text="-" 
+        Grid.Row="2"
+        BackgroundColor="#512BD4" 
+        TextColor="White"
+        Command="{Binding CalcKeys}" 
+        CommandParameter="OpSub"
+    />
+
+    <Button 
+        Grid.Column="3" Text="+" 
+        Grid.Row="3"
+        BackgroundColor="#512BD4" 
+        TextColor="White"
+        Command="{Binding CalcKeys}" 
+        CommandParameter="OpAdd"
+    />
+        
+</Grid>
+
+</VerticalStackLayout>
 </ContentPage>
